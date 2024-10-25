@@ -18,7 +18,7 @@ const Introduction = () => {
         </div>
         <p className="text-xl -mt-10" style={{color:'#787373'}}>A Software Engineer, who is passionate about <br/> creating innovative projects</p>
         <a 
-          href="https://drive.google.com/file/d/1rdH7Fle7v1g5VDDatIq8AFDKzECwoHAQ/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1l0oi1Du1n12P9WIDt12bl_4dCmEImn-j/view?usp=drive_link"
           className="inline-block mt-6 px-6 py-3 bg-black text-white rounded-full"
         >
           Download Resume
