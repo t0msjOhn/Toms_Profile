@@ -25,10 +25,11 @@ const Projects = () => {
             <a href='https://github.com/t0msjOhn/newsapp' target='_blank'><img src={jn1} alt="John's News " className="w-full object-cover" /></a>
             <div className="p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-2">John's News</h3>
-              <p className="text-gray-700">Persona;ised App for showing daily NEWS</p>
+              <p className="text-gray-700">Personalised App for showing daily NEWS</p>
             </div>
           </div>
         </div>
+        <div className='mt-6 text-center text-xl underline'><a href='https://github.com/t0msjOhn'>See more</a></div>
       </div>
     </section>
   );

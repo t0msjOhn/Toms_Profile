@@ -5,6 +5,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Loading from './components/LoadUI/Loading';
+import './App.css';
 
 function App() {
   const [loading,setLoading] = useState(true);
@@ -15,22 +16,23 @@ function App() {
     },2000);
     return ()=>clearTimeout(timer)
   },[])
+
   return (
     <>
       {loading?(
         <Loading/>
         ):(
-          <div>
-      <header className="sticky top-0 z-10 bg-white shadow">
-        <Header />
-      </header>
-      <Introduction />
-      <main>
-        <About />
-        <Projects />
-      </main>
-      <Footer />
-    </div>
+        <div className="App">
+          <header className="sticky top-0 z-10 bg-white shadow">
+            <Header />
+          </header>
+          <Introduction />
+          <main>
+            <About />
+            <Projects />
+          </main>
+          <Footer />
+        </div>
         )}
     </>
   );

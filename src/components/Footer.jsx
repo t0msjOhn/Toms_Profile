@@ -10,7 +10,7 @@ const Footer = () => {
         <a href="https://github.com/t0msjOhn" target='_blank' className="hover:bg-white"><img width="24" height="24" src="https://img.icons8.com/material-outlined/24/github.png" alt="github"/></a>
         <a href="https://www.instagram.com/t0ms_j0hn/" target='_blank' className="hover:bg-white"><img width="24" height="24" src="https://img.icons8.com/material-outlined/24/instagram-new--v1.png" alt="instagram-new--v1"/></a>
       </div>
-      <p className='mt-8'>© Copyright 2024. Made with 🤍</p>
+      <p className='mt-8'>Made with 🤍 in Bengaluru</p>
     </footer>
   );
 };

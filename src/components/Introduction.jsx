@@ -3,7 +3,7 @@ import {dp1,bg1} from '../assets/images'
 
 const Introduction = () => {
   return (
-    <section id="home" className="bg-white text-center py-12 m-12 relative">
+    <section id="home" className="text-center py-12 m-12 relative">
       <div 
         className="max-w-10xl mx-auto p-8 bg-cover bg-center rounded-lg"
         style={{ backgroundImage:`url(${bg1})` }}
@@ -18,7 +18,7 @@ const Introduction = () => {
         </div>
         <p className="text-xl -mt-10" style={{color:'#787373'}}>A Software Engineer, who is passionate about <br/> creating innovative projects</p>
         <a 
-          href="https://drive.google.com/file/d/1F1GmDU700jEgoFDlxph3lqhrRjP8BfAb/view?usp=sharing"
+          href="https://drive.google.com/file/d/19i-tS4ROZ6jAAMRbADzNIUQXVgUn4lsC/view?usp=drive_link"
           className="inline-block mt-6 px-6 py-3 bg-black text-white rounded-full"
         >
           Download Resume
